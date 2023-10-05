@@ -1,0 +1,13 @@
+{
+  "name": "map-test",
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "ts-node": "latest",
+    "ts-patch": "latest",
+    "typescript": "latest",
+    "typia": "^5.1.5"
+  },
+  "scripts": {
+    "postinstall": "ts-patch install"
+  }
+}
